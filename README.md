@@ -28,6 +28,14 @@ This exercise is pure magic, by running the script ***BunnyGUI.py*** we will be 
 
 **Keep in mind:** This program would need a little more development, both in terms of reinforcement techniques to handle the behaviour of our friend, as the processing part, I have been working very hard on creating workers and threads with *QRunneable* to perform the processes that use the API in parallel to the frontend processes but I ended up not using them since they gave tons of operation errors.
 
+**Installation:** *In order to run BunnyGUI.py we will need to have installed the OpenAI GPT-3 Python Library, FFMPEG and PyQt5. Please keep in mind that the API used in the script has been disabled to avoid being leaked online so in order to run this script the user will need to generate a new API key from the OpenAI page.*
+
+*The dependencies can be installed by running the following commands:*
+```ruby
+pip install PyQt5
+pip install openai
+```
+
 ### EXERCISE 4: Docker:
 Finally on this exercise I have simply created my first Dockerfile a build a container that contains FFMPEG to run a simple CMD command.
 
